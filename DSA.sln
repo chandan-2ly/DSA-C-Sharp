@@ -9,9 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DetectCycleInUndirectedGrap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DetectCycleInUndirectedGraphDFS", "Graph\DetectCycleInUndirectedGraphDFS\DetectCycleInUndirectedGraphDFS.csproj", "{8CF4E716-2DEC-4137-86F1-BFC0875BFA65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopologicalSort_DFS", "Graph\TopologicalSort_DFS\TopologicalSort_DFS.csproj", "{9654A88F-B25C-4854-8F3C-1EAAB1C0D158}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopologicalSort_DFS", "Graph\TopologicalSort_DFS\TopologicalSort_DFS.csproj", "{9654A88F-B25C-4854-8F3C-1EAAB1C0D158}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopologicalSort_BFS", "Graph\TopologicalSort_BFS\TopologicalSort_BFS.csproj", "{9F348252-44DD-4A2C-A48E-FA1A4F5CBA67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopologicalSort_BFS", "Graph\TopologicalSort_BFS\TopologicalSort_BFS.csproj", "{9F348252-44DD-4A2C-A48E-FA1A4F5CBA67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfIsland", "Graph\NumberOfIsland\NumberOfIsland.csproj", "{830C8A4E-8EFF-4A2A-9640-A2A6F2E976B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{9A808174-60A9-4DF0-8B42-02240C20D6B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LRUCacheImplementation", "LinkedList\LRUCacheImplementation\LRUCacheImplementation.csproj", "{C4BCE8E9-C4C9-4EF2-8C5A-9BB7B1E5AAA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +41,14 @@ Global
 		{9F348252-44DD-4A2C-A48E-FA1A4F5CBA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F348252-44DD-4A2C-A48E-FA1A4F5CBA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F348252-44DD-4A2C-A48E-FA1A4F5CBA67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830C8A4E-8EFF-4A2A-9640-A2A6F2E976B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830C8A4E-8EFF-4A2A-9640-A2A6F2E976B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830C8A4E-8EFF-4A2A-9640-A2A6F2E976B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830C8A4E-8EFF-4A2A-9640-A2A6F2E976B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4BCE8E9-C4C9-4EF2-8C5A-9BB7B1E5AAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4BCE8E9-C4C9-4EF2-8C5A-9BB7B1E5AAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4BCE8E9-C4C9-4EF2-8C5A-9BB7B1E5AAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4BCE8E9-C4C9-4EF2-8C5A-9BB7B1E5AAA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +58,8 @@ Global
 		{8CF4E716-2DEC-4137-86F1-BFC0875BFA65} = {8CC1F563-174C-4E03-9E45-D0683ED9F999}
 		{9654A88F-B25C-4854-8F3C-1EAAB1C0D158} = {8CC1F563-174C-4E03-9E45-D0683ED9F999}
 		{9F348252-44DD-4A2C-A48E-FA1A4F5CBA67} = {8CC1F563-174C-4E03-9E45-D0683ED9F999}
+		{830C8A4E-8EFF-4A2A-9640-A2A6F2E976B8} = {8CC1F563-174C-4E03-9E45-D0683ED9F999}
+		{C4BCE8E9-C4C9-4EF2-8C5A-9BB7B1E5AAA5} = {9A808174-60A9-4DF0-8B42-02240C20D6B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C6DB684-5C97-403E-AD92-2709A592D9B4}
