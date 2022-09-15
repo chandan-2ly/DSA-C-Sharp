@@ -9,9 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DetectCycleInUndirectedGrap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DetectCycleInUndirectedGraphDFS", "Graph\DetectCycleInUndirectedGraphDFS\DetectCycleInUndirectedGraphDFS.csproj", "{8CF4E716-2DEC-4137-86F1-BFC0875BFA65}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopologicalSort_DFS", "Graph\TopologicalSort_DFS\TopologicalSort_DFS.csproj", "{9654A88F-B25C-4854-8F3C-1EAAB1C0D158}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopologicalSort_BFS", "Graph\TopologicalSort_BFS\TopologicalSort_BFS.csproj", "{9F348252-44DD-4A2C-A48E-FA1A4F5CBA67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopologicalSort", "Graph\TopologicalSort\TopologicalSort.csproj", "{9F348252-44DD-4A2C-A48E-FA1A4F5CBA67}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfIsland", "Graph\NumberOfIsland\NumberOfIsland.csproj", "{830C8A4E-8EFF-4A2A-9640-A2A6F2E976B8}"
 EndProject
@@ -19,9 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LRUCacheImplementation", "LinkedList\LRUCacheImplementation\LRUCacheImplementation.csproj", "{C4BCE8E9-C4C9-4EF2-8C5A-9BB7B1E5AAA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsGraphBipartite", "Graph\IsGraphBipartite_BFS\IsGraphBipartite.csproj", "{5E5B9B42-D01B-4580-963B-35AB4DF44DBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsGraphBipartite", "Graph\IsGraphBipartite\IsGraphBipartite.csproj", "{5E5B9B42-D01B-4580-963B-35AB4DF44DBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseSchedule", "Graph\CourseSchedule\CourseSchedule.csproj", "{CBEAC433-AADA-465F-9C90-B4725ECFA2C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseSchedule", "Graph\CourseSchedule\CourseSchedule.csproj", "{CBEAC433-AADA-465F-9C90-B4725ECFA2C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortestPathUndirectedGraph_UnitWeight", "Graph\ShortestPathUndirectedGraph_UnitWeight\ShortestPathUndirectedGraph_UnitWeight.csproj", "{C2E7BC09-7A7F-4D8C-9398-DE1B5EB8EC37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestPathDirectedAcylicGraph_Weight", "Graph\ShortestPathDirectedAcylicGraph_Weight\ShortestPathDirectedAcylicGraph_Weight.csproj", "{BA55752C-DA44-4FCC-A1BE-297E56039C85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +39,6 @@ Global
 		{8CF4E716-2DEC-4137-86F1-BFC0875BFA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CF4E716-2DEC-4137-86F1-BFC0875BFA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CF4E716-2DEC-4137-86F1-BFC0875BFA65}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9654A88F-B25C-4854-8F3C-1EAAB1C0D158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9654A88F-B25C-4854-8F3C-1EAAB1C0D158}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9654A88F-B25C-4854-8F3C-1EAAB1C0D158}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9654A88F-B25C-4854-8F3C-1EAAB1C0D158}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9F348252-44DD-4A2C-A48E-FA1A4F5CBA67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9F348252-44DD-4A2C-A48E-FA1A4F5CBA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F348252-44DD-4A2C-A48E-FA1A4F5CBA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -61,6 +59,14 @@ Global
 		{CBEAC433-AADA-465F-9C90-B4725ECFA2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBEAC433-AADA-465F-9C90-B4725ECFA2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBEAC433-AADA-465F-9C90-B4725ECFA2C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E7BC09-7A7F-4D8C-9398-DE1B5EB8EC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E7BC09-7A7F-4D8C-9398-DE1B5EB8EC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E7BC09-7A7F-4D8C-9398-DE1B5EB8EC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E7BC09-7A7F-4D8C-9398-DE1B5EB8EC37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA55752C-DA44-4FCC-A1BE-297E56039C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA55752C-DA44-4FCC-A1BE-297E56039C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA55752C-DA44-4FCC-A1BE-297E56039C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA55752C-DA44-4FCC-A1BE-297E56039C85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,14 +74,15 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AAA7B345-FC31-4129-84DE-FBDFCC9301C7} = {8CC1F563-174C-4E03-9E45-D0683ED9F999}
 		{8CF4E716-2DEC-4137-86F1-BFC0875BFA65} = {8CC1F563-174C-4E03-9E45-D0683ED9F999}
-		{9654A88F-B25C-4854-8F3C-1EAAB1C0D158} = {8CC1F563-174C-4E03-9E45-D0683ED9F999}
 		{9F348252-44DD-4A2C-A48E-FA1A4F5CBA67} = {8CC1F563-174C-4E03-9E45-D0683ED9F999}
 		{830C8A4E-8EFF-4A2A-9640-A2A6F2E976B8} = {8CC1F563-174C-4E03-9E45-D0683ED9F999}
 		{C4BCE8E9-C4C9-4EF2-8C5A-9BB7B1E5AAA5} = {9A808174-60A9-4DF0-8B42-02240C20D6B8}
 		{5E5B9B42-D01B-4580-963B-35AB4DF44DBC} = {8CC1F563-174C-4E03-9E45-D0683ED9F999}
 		{CBEAC433-AADA-465F-9C90-B4725ECFA2C5} = {8CC1F563-174C-4E03-9E45-D0683ED9F999}
+		{C2E7BC09-7A7F-4D8C-9398-DE1B5EB8EC37} = {8CC1F563-174C-4E03-9E45-D0683ED9F999}
+		{BA55752C-DA44-4FCC-A1BE-297E56039C85} = {8CC1F563-174C-4E03-9E45-D0683ED9F999}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9C6DB684-5C97-403E-AD92-2709A592D9B4}
+		SolutionGuid = {9550904E-1BAF-41CC-9559-BA7E4CB1F91A}
 	EndGlobalSection
 EndGlobal
