@@ -4,7 +4,7 @@
     {
         public static void ShortestPath(List<List<Weight>> adj, int n, int source)
         {
-            Stack<int> stack = new Stack<int>();
+            Stack<int> topologicalOrdered = new Stack<int>();
             bool[] visited = new bool[n];
             Array.Fill(visited, false);
 
@@ -12,7 +12,7 @@
             {
                 if (!visited[i])
                 {
-                    dfs(adj, stack, i, visited);
+                    dfs(adj, topologicalOrdered, i, visited);
                 }
             }
 
@@ -21,9 +21,9 @@
 
             distance[source] = 0;
 
-            while (stack.Count > 0)
+            while (topologicalOrdered.Count > 0)
             {
-                int tempNode = stack.Pop();
+                int tempNode = topologicalOrdered.Pop();
                 if (adj[tempNode].Count > 0)
                 {
                     foreach (Weight next in adj[tempNode])
@@ -36,7 +36,7 @@
                 }
             }
 
-            Console.WriteLine(string.Join(",", distance));
+            Console.WriteLine("DFS -> " + string.Join(",", distance));
         }
 
         private static void dfs(List<List<Weight>> adj, Stack<int> stack, int src, bool[] visited)

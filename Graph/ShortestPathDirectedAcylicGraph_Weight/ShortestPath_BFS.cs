@@ -29,7 +29,7 @@
                 }
             }
 
-            Console.WriteLine(string.Join(",", distance));
+            Console.WriteLine("BFS -> " + string.Join(",", distance));
         }
     }
 }
