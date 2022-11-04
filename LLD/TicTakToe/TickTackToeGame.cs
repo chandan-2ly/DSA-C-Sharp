@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Common;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TicTakToe
+﻿namespace TicTakToe
 {
     internal class TickTackToeGame
     {
@@ -71,37 +64,27 @@ namespace TicTakToe
             bool diagMatch = true;
             bool revDiagMatch = true;
 
-            //need to check in row
-            for (int i = 0; i < _board.Size; i++)
+            for (int i = 0, j = _board.Size - 1; i < _board.Size; i++,j--)
             {
-
+                //need to check in row
                 if (_board.GameBoard[row][i] == null || _board.GameBoard[row][i].PieceType != pieceType)
                 {
                     rowMatch = false;
                 }
-            }
-
-            //need to check in column
-            for (int i = 0; i < _board.Size; i++)
-            {
+                //need to check in column
                 if (_board.GameBoard[i][col] == null || _board.GameBoard[i][col].PieceType != pieceType)
                 {
                     colMatch = false;
                 }
-            }
-
-            //need to check diagonals
-            for (int i = 0; i < _board.Size; i++)
-            {
-                if (_board.GameBoard[i][i] == null || _board.GameBoard[i][i].PieceType != pieceType)
+                //need to check diagonals
+                for (int i = 0; i < _board.Size; i++)
                 {
-                    diagMatch = false;
+                    if (_board.GameBoard[i][i] == null || _board.GameBoard[i][i].PieceType != pieceType)
+                    {
+                        diagMatch = false;
+                    }
                 }
-            }
-
-            //need to check anti-diagonals
-            for (int i = 0, j = _board.Size - 1; i < _board.Size; i++, j--)
-            {
+                //need to check anti-diagonals
                 if (_board.GameBoard[i][j] == null || _board.GameBoard[i][j].PieceType != pieceType)
                 {
                     revDiagMatch = false;

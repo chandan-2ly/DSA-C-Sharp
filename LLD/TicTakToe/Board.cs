@@ -70,7 +70,7 @@ namespace TicTakToe
                 return false;
 
             GameBoard[row][col] = playerTurn.PlayingPiece;
-            return true;
+            return true; 
         }
     }
 }
