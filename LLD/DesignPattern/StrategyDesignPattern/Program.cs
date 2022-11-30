@@ -1,4 +1,4 @@
-﻿namespace StrategyDesignPattern
+﻿namespace WithoutStrategyDesignPattern
 {
     internal class Program
     {
