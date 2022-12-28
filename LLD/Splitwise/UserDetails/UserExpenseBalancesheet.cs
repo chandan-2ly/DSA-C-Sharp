@@ -7,5 +7,12 @@
         public double TotalExpense { get; set; }
         public double TotalOwe { get; set; }
         public double TotalGetBack { get; set; }
+        public double TotalBalance
+        {
+            get
+            {
+                return TotalGetBack - TotalOwe;
+            }
+        }
     }
 }

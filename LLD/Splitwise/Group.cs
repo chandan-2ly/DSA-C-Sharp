@@ -36,5 +36,10 @@ namespace Splitwise
             if(expense != null)
                 Expenses.Add(expense);
         }
+
+        public List<User> GetUsers()
+        {
+            return GroupMembers;
+        }
     }
 }

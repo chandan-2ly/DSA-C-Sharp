@@ -39,7 +39,20 @@ namespace Splitwise
             group.CreateExpense(expenseId: 100, description: "Vegetables", expenseAmount: 500, splitDetails: splits
                 , ExpenseSplitType.EQUAL, paidByUserId: userController.GetUser(2));
 
-            balanceSheet.ShowBalanceSheet(userController.GetUser(1));
+            //balanceSheet.ShowBalanceSheet(userController.GetUser(1));
+
+            splits = new List<Split>();
+            split1 = new Split(userController.GetUser(1), 800);
+            split2 = new Split(userController.GetUser(2), 200);
+            //split3 = new Split(userController.GetUser(3), 166.66);
+            splits.Add(split1);
+            splits.Add(split2);
+            //splits.Add(split3);
+
+            group.CreateExpense(expenseId: 101, description: "Vegetables", expenseAmount: 1000, splitDetails: splits
+                , ExpenseSplitType.UNEQUAL, paidByUserId: userController.GetUser(3));
+
+            balanceSheet.ShowBalanceSheet(group.GetUsers());
 
         }
     }

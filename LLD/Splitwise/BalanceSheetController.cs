@@ -56,30 +56,34 @@ namespace Splitwise
         {
             Console.WriteLine("------------------------------------------------------------------");
             Console.WriteLine($"Balance Sheet of User {user.Name}");
-            Console.WriteLine($"Your Total Expense is {user.Balancesheet.TotalExpense}");
-            Console.WriteLine($"Your Total Paid Amount is {user.Balancesheet.TotalAmount}");
-            Console.WriteLine($"Your Total GetBack Amount is {user.Balancesheet.TotalGetBack}");
-            Console.WriteLine($"Your Total Owe Amount is {user.Balancesheet.TotalOwe}");
+            Console.WriteLine($"Your Total Expense is {Math.Round(user.Balancesheet.TotalExpense,2)}");
+            Console.WriteLine($"Your Total Paid Amount is {Math.Round(user.Balancesheet.TotalAmount,2)}");
+            Console.WriteLine($"Your Total GetBack Amount is {Math.Round(user.Balancesheet.TotalGetBack, 2)}");
+            Console.WriteLine($"Your Total Owe Amount is {Math.Round(user.Balancesheet.TotalOwe, 2)}");
 
-            foreach(var friend in user.Balancesheet.UsersBalance)
+            Console.WriteLine($"\nYour Total Balance is {Math.Round(user.Balancesheet.TotalBalance, 2)}");
+
+            foreach (var friend in user.Balancesheet.UsersBalance)
             {
-                if (friend.Value.GetBack > 0)
-                    Console.WriteLine($"{friend.Key.Name} owes {user.Name}: {friend.Value.GetBack}");
-                if (friend.Value.Owe > 0)
-                    Console.WriteLine($"{user.Name} owes {friend.Key.Name}: {friend.Value.Owe}");
+                if (friend.Value.Balance > 0)
+                    Console.WriteLine($"{friend.Key.Name} owes {user.Name}: {friend.Value.Balance}");
+                if (friend.Value.Balance < 0)
+                    Console.WriteLine($"{user.Name} owes {friend.Key.Name}: {-friend.Value.Balance}");
             }
         }
 
         public void ShowBalanceSheet(List<User> users)
         {
-            Console.WriteLine("------------------------------------------------------------------");
-
-            foreach (var user in users)
+            //Console.WriteLine("------------------------------------------------------------------");
+            if (users != null)
             {
-                var userBalanceSheet = user.Balancesheet;
-                if(userBalanceSheet.UsersBalance.Count > 0)
+                foreach (var user in users)
                 {
-                    ShowBalanceSheet(user);
+                    var userBalanceSheet = user.Balancesheet;
+                    if (userBalanceSheet.UsersBalance.Count > 0)
+                    {
+                        ShowBalanceSheet(user);
+                    }
                 }
             }
         }
