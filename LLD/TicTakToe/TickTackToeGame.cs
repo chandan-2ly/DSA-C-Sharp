@@ -77,12 +77,9 @@
                     colMatch = false;
                 }
                 //need to check diagonals
-                for (int i = 0; i < _board.Size; i++)
+                if (_board.GameBoard[i][i] == null || _board.GameBoard[i][i].PieceType != pieceType)
                 {
-                    if (_board.GameBoard[i][i] == null || _board.GameBoard[i][i].PieceType != pieceType)
-                    {
-                        diagMatch = false;
-                    }
+                    diagMatch = false;
                 }
                 //need to check anti-diagonals
                 if (_board.GameBoard[i][j] == null || _board.GameBoard[i][j].PieceType != pieceType)
