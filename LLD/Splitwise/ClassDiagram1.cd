@@ -1,148 +1,148 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Splitwise.ExpenseDetails.SplitDetails.EqualExpenseSplit" Collapsed="true">
-    <Position X="4.25" Y="1.75" Width="1.5" />
+  <Class Name="Splitwise.ExpenseDetails.SplitDetails.EqualExpenseSplit">
+    <Position X="4.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ExpenseDetails\SplitDetails\EqualExpenseSplit.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.ExpenseDetails.SplitDetails.ExpenseSplit" Collapsed="true">
+  <Class Name="Splitwise.ExpenseDetails.SplitDetails.ExpenseSplit">
     <Position X="6.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ExpenseDetails\SplitDetails\ExpenseSplit.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.ExpenseDetails.SplitDetails.PercentageExpenseSplit" Collapsed="true">
-    <Position X="8.75" Y="1.75" Width="1.5" />
+  <Class Name="Splitwise.ExpenseDetails.SplitDetails.PercentageExpenseSplit">
+    <Position X="8.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ExpenseDetails\SplitDetails\PercentageExpenseSplit.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.ExpenseDetails.SplitDetails.Split" Collapsed="true">
-    <Position X="16.5" Y="1.5" Width="1.5" />
+  <Class Name="Splitwise.ExpenseDetails.SplitDetails.Split">
+    <Position X="16.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>ExpenseDetails\SplitDetails\Split.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.ExpenseDetails.SplitDetails.SplitController" Collapsed="true">
-    <Position X="11.25" Y="2.5" Width="1.5" />
+  <Class Name="Splitwise.ExpenseDetails.SplitDetails.SplitController">
+    <Position X="11.25" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ExpenseDetails\SplitDetails\SplitController.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.ExpenseDetails.SplitDetails.SplitFactory" Collapsed="true">
-    <Position X="13" Y="2.5" Width="1.5" />
+  <Class Name="Splitwise.ExpenseDetails.SplitDetails.SplitFactory">
+    <Position X="13" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ExpenseDetails\SplitDetails\SplitFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.ExpenseDetails.SplitDetails.UnEqualExpenseSplit" Collapsed="true">
-    <Position X="6.5" Y="1.75" Width="1.5" />
+  <Class Name="Splitwise.ExpenseDetails.SplitDetails.UnEqualExpenseSplit">
+    <Position X="6.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ExpenseDetails\SplitDetails\UnEqualExpenseSplit.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.ExpenseDetails.Expense" Collapsed="true">
+  <Class Name="Splitwise.ExpenseDetails.Expense">
     <Position X="13" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACgAAAAAAgAAAAAAAAAACAAAAAAAAIAAABAAAAAAA=</HashCode>
       <FileName>ExpenseDetails\Expense.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.ExpenseDetails.ExpenseController" Collapsed="true">
+  <Class Name="Splitwise.ExpenseDetails.ExpenseController">
     <Position X="14.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
       <FileName>ExpenseDetails\ExpenseController.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.UserDetails.FriendBalance" Collapsed="true">
+  <Class Name="Splitwise.UserDetails.FriendBalance">
     <Position X="16.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAgBAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
       <FileName>UserDetails\FriendBalance.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.UserDetails.User" Collapsed="true">
-    <Position X="4" Y="4.75" Width="1.5" />
+  <Class Name="Splitwise.UserDetails.User">
+    <Position X="4.25" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>UserDetails\User.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.UserDetails.UserComparable" Collapsed="true">
-    <Position X="4" Y="3.5" Width="1.5" />
+  <Class Name="Splitwise.UserDetails.UserComparable">
+    <Position X="4.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
       <FileName>UserDetails\UserComparable.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Splitwise.UserDetails.UserController" Collapsed="true">
-    <Position X="16.5" Y="2.5" Width="1.5" />
+  <Class Name="Splitwise.UserDetails.UserController">
+    <Position X="16.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>IAAAACAAAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAA=</HashCode>
       <FileName>UserDetails\UserController.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.UserDetails.UserExpenseBalancesheet" Collapsed="true">
-    <Position X="11.25" Y="3.5" Width="1.5" />
+  <Class Name="Splitwise.UserDetails.UserExpenseBalancesheet">
+    <Position X="8.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AACAAAAAAIAQAAAAAABAAAAAAAAAABAAAgAAAAAAAAA=</HashCode>
       <FileName>UserDetails\UserExpenseBalancesheet.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.UserDetails.UserPayment" Collapsed="true">
-    <Position X="13" Y="3.5" Width="1.5" />
+  <Class Name="Splitwise.UserDetails.UserPayment">
+    <Position X="13" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>UserDetails\UserPayment.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.BalanceSheetController" Collapsed="true">
+  <Class Name="Splitwise.BalanceSheetController">
     <Position X="11.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BalanceSheetController.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.Group" Collapsed="true">
-    <Position X="11.25" Y="1.5" Width="1.5" />
+  <Class Name="Splitwise.Group">
+    <Position X="11.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>IAACAAAAAAAgCAAAAAAAAAAAARAAAAIAAQAAAAAAAAE=</HashCode>
       <FileName>Group.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.GroupController" Collapsed="true">
-    <Position X="13" Y="1.5" Width="1.5" />
+  <Class Name="Splitwise.GroupController">
+    <Position X="13" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAEAAAAAAAAAAA=</HashCode>
       <FileName>GroupController.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.Program" Collapsed="true">
-    <Position X="14.75" Y="1.5" Width="1.5" />
+  <Class Name="Splitwise.Program">
+    <Position X="14.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Splitwise.SplitwiseApp" Collapsed="true">
-    <Position X="14.75" Y="2.5" Width="1.5" />
+  <Class Name="Splitwise.SplitwiseApp">
+    <Position X="14.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAABAAAAACAAAAgAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
       <FileName>SplitwiseApp.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Enum Name="Splitwise.ExpenseDetails.ExpenseSplitType" Collapsed="true">
-    <Position X="11.25" Y="4.75" Width="1.5" />
+  <Enum Name="Splitwise.ExpenseDetails.ExpenseSplitType">
+    <Position X="8.75" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAACAAAACAAAAAA=</HashCode>
       <FileName>ExpenseDetails\ExpenseSplitType.cs</FileName>
