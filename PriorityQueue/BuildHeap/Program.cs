@@ -7,9 +7,9 @@ namespace BuildHeap
         static void Main(string[] args)
         {
             int[] nums = { 4, 3, 1, 5, 6, 7, 9 };
-            Heap h = buildHeap(nums);
+            //Heap h = buildHeap(nums);
 
-            Console.WriteLine(string.Join(',', h));
+            //Console.WriteLine(string.Join(',', h));
         }
     }
 }
