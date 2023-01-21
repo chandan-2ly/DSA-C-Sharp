@@ -83,6 +83,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountAndSayLeetCode", "Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingSystem", "LLD\LoggingSystem\LoggingSystem.csproj", "{AF817C41-DB12-45D5-8E49-1B8F5D68DF26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMDispenseMachine", "LLD\ATMDispenseMachine\ATMDispenseMachine.csproj", "{AA089C2C-E33E-4939-AFDC-39AF26B3E522}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +219,10 @@ Global
 		{AF817C41-DB12-45D5-8E49-1B8F5D68DF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF817C41-DB12-45D5-8E49-1B8F5D68DF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF817C41-DB12-45D5-8E49-1B8F5D68DF26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA089C2C-E33E-4939-AFDC-39AF26B3E522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA089C2C-E33E-4939-AFDC-39AF26B3E522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA089C2C-E33E-4939-AFDC-39AF26B3E522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA089C2C-E33E-4939-AFDC-39AF26B3E522}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -255,6 +261,7 @@ Global
 		{503BD709-FFA5-436E-9137-9C24FAC85545} = {2D834AF9-1802-4500-B0E7-C1C50763BF37}
 		{CAB71F0B-B1F5-4DC0-9D02-7E9887432474} = {87200333-9E97-438A-AA94-E9D61A3B9B12}
 		{AF817C41-DB12-45D5-8E49-1B8F5D68DF26} = {2D834AF9-1802-4500-B0E7-C1C50763BF37}
+		{AA089C2C-E33E-4939-AFDC-39AF26B3E522} = {2D834AF9-1802-4500-B0E7-C1C50763BF37}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9550904E-1BAF-41CC-9559-BA7E4CB1F91A}
