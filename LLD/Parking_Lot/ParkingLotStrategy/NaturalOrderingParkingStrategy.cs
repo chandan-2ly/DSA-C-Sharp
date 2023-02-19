@@ -19,6 +19,10 @@ namespace Parking_Lot.ParkingLotStrategy
         public void AddFloor(Floor floor)
         {
             _floorHeap.Enqueue(floor, floor.Id);
+            foreach(var slot in floor.Slots)
+            {
+                AddSlot(floor.Id, slot);
+            }
         }
 
         public void AddSlot(int floorId, Slot slot)
@@ -35,16 +39,12 @@ namespace Parking_Lot.ParkingLotStrategy
             _vehicleTypeFloorSlotMap[floorId][vehicleType].Dequeue();
         }
 
-        public Slot GetNext(VehicleType vehicleType)
+        public Slot GetFreeSlot(VehicleType vehicleType)
         {
             var vehicleTypeMap = _vehicleTypeFloorSlotMap.Values.Where(x => x.ContainsKey(vehicleType)).FirstOrDefault();
             var slot = vehicleTypeMap[vehicleType].Dequeue();
             return slot;
         }
 
-        public List<Slot> GetAvailableSlots(VehicleType vehicleType)
-        {
-            var vehicleTypeMap = _vehicleTypeFloorSlotMap.Values.Where(x => x.ContainsKey(vehicleType)).FirstOrDefault();
-        }
     }
 }

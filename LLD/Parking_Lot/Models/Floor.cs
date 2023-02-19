@@ -3,9 +3,9 @@
     public class Floor
     {
         public int Id { get; }
-        public Dictionary<VehicleType, Dictionary<int, Slot>> Slots { get; private set; }
+        public List<Slot> Slots { get; private set; }
 
-        public Floor(int id, Dictionary<VehicleType, Dictionary<int, Slot>> slots)
+        public Floor(int id, List<Slot> slots)
         {
             Id = id;
             Slots = slots;
@@ -15,17 +15,12 @@
 
         public void AddSlot(Slot slot)
         {
-            if (Slots[slot.VehicleType] == null)
-            {
-                Slots[slot.VehicleType] = new Dictionary<int, Slot>();
-            }
-            Slots[slot.VehicleType][slot.Id] = slot;
+           Slots.Add(slot);
         }
 
         public void RemoveSlot(int slotId)
         {
-            var slot = Slots.Values.First(map => map.ContainsKey(slotId))[slotId];
-            Slots[slot.VehicleType].Remove(slotId);
+           Slots.Remove(Slots[slotId]);
         }
 
     }

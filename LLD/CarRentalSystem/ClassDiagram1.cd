@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CarRentalSystem.Bill">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAABCABAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Bill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRentalSystem.Location">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAIAAAAAAAAAAAAAAACAAAAAAAAAgA=</HashCode>
+      <FileName>Location.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRentalSystem.Payment">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRentalSystem.Program">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRentalSystem.Reservation">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAIEEAAAAAJBDABQAAAAgBAAQAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Reservation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRentalSystem.Store">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAABBBAAAAAAIAEAAAAAAAgAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Store.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRentalSystem.User">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRentalSystem.Vehicle">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgCAAAEAAAAAAAAAAAAAAQAAAAEAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRentalSystem.VehicleInventoryManagement">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAgAAAAAAAAAAAAAAEAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>VehicleInventoryManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRentalSystem.VehicleRentalSystem">
+    <Position X="6.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAgAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>VehicleRentalSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CarRentalSystem.ReservationStatus">
+    <Position X="8.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAAAAgA=</HashCode>
+      <FileName>ReservationStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CarRentalSystem.ReservetionType">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReservetionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CarRentalSystem.VehicleStatus">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>VehicleStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CarRentalSystem.VehicleType">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VehicleType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

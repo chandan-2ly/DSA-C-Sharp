@@ -30,9 +30,9 @@ namespace Splitwise
             GroupMembers.Add(user);
         }
 
-        public void CreateExpense(int expenseId, string description, int expenseAmount, List<Split> splitDetails, ExpenseSplitType eQUAL, User paidByUserId)
+        public void CreateExpense(int expenseId, string description, int expenseAmount, List<Split> splitDetails, ExpenseSplitType equal, User paidByUserId)
         {
-            var expense = _expenseController.CreateExpense(expenseId, description, expenseAmount, splitDetails, eQUAL, paidByUserId);
+            var expense = _expenseController.CreateExpense(expenseId, description, expenseAmount, splitDetails, equal, paidByUserId);
             if(expense != null)
                 Expenses.Add(expense);
         }
